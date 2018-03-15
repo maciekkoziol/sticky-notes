@@ -1,0 +1,78 @@
+
+body{
+
+    background: aqua;
+   /* display: flex;*/
+
+}
+header{
+    font-family: 'Rammetto One', cursive;
+    position: center;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+.sticker-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sticker{
+    position: relative;
+    padding-top: 20px;
+    background-color:cornflowerblue;
+    min-height:100px;
+    min-width: 100px;
+    border: 1px salmon;
+
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+.bar{
+
+    position: absolute;
+    top:0;
+    left:0;
+    height: 20px;
+    background-color:salmon;
+    width: 100%
+
+}
+.sticker .content{
+    padding: 3px 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    min-width: 140px;
+    background: transparent;
+    border:none;
+}
+.btn {
+    margin-left: 4em;
+
+
+
+
+}
+input{
+    padding: 3px 10px;
+    box-sizing: border-box;
+    min-height: 50px;
+    min-width: 50px;
+    background: salmon;
+    border:none;
+    margin-right: 4em;
+
+
+}
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
